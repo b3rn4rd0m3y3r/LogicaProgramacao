@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Domínio de Variáveis</title>
+		<style>
+		</style>
+		<meta charset="iso-8859-1">
+		<meta name="author" content="Bernardo Meyer">
+		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+		<meta name="description" content="HTML5">
+		<script>
+			var a = 100;
+			var b = 200;
+			var c = 300;
+			function func1(){
+				var a = 10;
+				var b = 20;
+				var c = 30;
+				console.log("func1: a = "+a+", b = "+b+", c = "+c);
+				}
+			function func2(){
+				var a = 1000;
+				var b = 2000;
+				var c = 3000;
+				console.log("func2: a = "+a+", b = "+b+", c = "+c);
+				}
+			console.log("Global: a = "+a+", b = "+b+", c = "+c);
+		</script>
+	</head>
+	<body id="corpo">
+	</body>
+</html>
